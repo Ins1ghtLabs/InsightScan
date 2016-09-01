@@ -68,6 +68,7 @@ PROBES=[
 ]
 
 SIGNS=[
+'redis|^-ERR\s\w+',
 'http|^HTTP.*',
 'ssh|SSH-2.0-OpenSSH.*',
 'ssh|SSH-1.0-OpenSSH.*',
